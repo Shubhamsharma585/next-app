@@ -11,16 +11,14 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+h1 {
+  color: purple;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+h2 {
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
 }
