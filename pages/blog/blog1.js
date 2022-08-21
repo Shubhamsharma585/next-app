@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import { useRouter } from "next/router";
 
-function blog1() {
+function Blog1() {
+  const router = useRouter();
+
   return (
-    <div>blog1</div>
-  )
+    <div>
+      blog1
+      <h2 onClick={() => router.push("/")}>Home</h2>
+    </div>
+  );
 }
 
-export default blog1
+export default Blog1;

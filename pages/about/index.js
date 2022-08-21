@@ -1,8 +1,15 @@
 import React from "react";
+import { useRouter } from "next/router";
 
-function about() {
-  return <div>about</div>;
+function About() {
+  const router = useRouter();
+
+  return (
+    <div>
+      about
+      <h2 onClick={() => router.push("/")}>Home</h2>
+    </div>
+  );
 }
 
-export default about;
-
+export default About;

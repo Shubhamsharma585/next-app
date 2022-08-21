@@ -6,13 +6,15 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+
+
 a {
   color: inherit;
   text-decoration: none;
 }
 
 h1 {
-  color: purple;
+  color: rgba(15, 2, 75, 0.496);
 }
 
 h2 {
