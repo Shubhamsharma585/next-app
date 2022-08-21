@@ -13,6 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+
       <div
         style={{
           backgroundColor: "gray",
@@ -24,8 +25,8 @@ export default function Home() {
         <button onClick={() => router.push("/profile")}>profile</button>
         <h2 onClick={() => router.push("/about")}>about</h2>
         <h2 onClick={() => router.push("/blog")}>blog</h2>
-        <h2 onClick={() => router.push("/blog/blog1")}>blog1</h2>
-        <h2 onClick={() => router.push("/blog/blog2")}>blog2</h2>
+        <h2 onClick={() => router.push("/blog/blog1")}>blog11</h2>
+        <h2 onClick={() => router.push("/blog/blog2")}>blog22</h2>
         <h2 onClick={() => router.push("/sakhfjkafds")}>404</h2>
       </div>
     </div>
