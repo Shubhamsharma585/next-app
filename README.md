@@ -3,3 +3,7 @@
 
 //commit4
 //commit 5
+<<<<<<< HEAD
+=======
+//commit 6
+>>>>>>> 19bf685 (commit 6)
