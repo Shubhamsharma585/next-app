@@ -1,15 +1,45 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 
 function Ideach() {
   const router = useRouter();
+  const [mi, setMi] = useState({});
+
+  // useEffect(() => {
+  //   if (router.isReady) {
+  //     fetch(`http://localhost:3005/api/peopledata/q=${router.query.idkkk}`)
+  //       .then((response) => {
+  //         console.log(response);
+  //         return response.json();
+  //       })
+  //       .then((data) => {
+  //         setMi(data);
+  //       });
+  //   }
+  // }, [router.query.idkkk]);
+
+  console.log(mi);
 
   return (
-    <div style={{ display: "flex", justifyContent: "center" }}>
-      {/* <h1>this is page pathname {router.pathname}</h1> */}
-      <h1>this is page and query {router.query.idkkk}</h1>
-      <h2 onClick={() => router.push("/")}>Home</h2>
-    </div>
+    <>
+      <h2
+        style={{ backgroundColor: "pink", paddingLeft: "20px" }}
+        onClick={() => router.push("/")}
+      >
+        Home
+      </h2>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          flexDirection: "column",
+        }}
+      >
+        <h2> {router.query.idkkk}</h2>
+        <h2>{mi.first_name}</h2>
+      </div>
+    </>
   );
 }
 
