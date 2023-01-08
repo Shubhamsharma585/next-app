@@ -1,7 +1,3 @@
-//commit 2 added to readme
-//commit 3
-
-//commit4
-//commit 5
-//commit 6
-//commit 7
+//My NextJs App with all basic features
+//getstaticprops
+//getserversideprops
