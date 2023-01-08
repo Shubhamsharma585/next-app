@@ -6,7 +6,7 @@ function About({ users }) {
   const router = useRouter();
   const [ami, setAmi] = useState([]);
 
-  // useEffect(() => {
+  //// useEffect(() => {
   //   fetch("http://localhost:3005/api/peopledata")
   //     .then((response) => {
   //       return response.json();
