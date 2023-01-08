@@ -6,7 +6,7 @@ function Blog1() {
 
   return (
     <div>
-      blog1
+      blog111
       <h2 onClick={() => router.push("/")}>Home</h2>
     </div>
   );
