@@ -6,7 +6,7 @@ function Profile() {
   return (
     <>
       <h1>Shubham Sharma</h1>
-       <div>adding box</div>
+       <div>adding box s</div>
     </>
   );
 }
