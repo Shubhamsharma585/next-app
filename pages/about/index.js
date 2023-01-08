@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
-import User from "../../Compo/User";
+import User from "../../src/Compo/User";
 
 function About({ users }) {
   const router = useRouter();
