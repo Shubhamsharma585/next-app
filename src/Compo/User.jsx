@@ -1,6 +1,7 @@
 import React from "react";
 
 function User({ name, username }) {
+  //
   return (
     <div style={{ border: "2px solid violet" }}>
       User
